@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843CCAC91F6A6D66009FD7CF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843CCAC81F6A6D66009FD7CF /* GLUT.framework */; };
+		843CCACB1F6A6D70009FD7CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843CCACA1F6A6D70009FD7CF /* OpenGL.framework */; };
+		843CCACF1F6A6E68009FD7CF /* lander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843CCACC1F6A6E68009FD7CF /* lander.cpp */; };
+		843CCAD01F6A6E68009FD7CF /* lander_graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843CCACD1F6A6E68009FD7CF /* lander_graphics.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		843CCABB1F69D73C009FD7CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		843CCABD1F69D73C009FD7CF /* landerproject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = landerproject; sourceTree = BUILT_PRODUCTS_DIR; };
+		843CCAC81F6A6D66009FD7CF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		843CCACA1F6A6D70009FD7CF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		843CCACC1F6A6E68009FD7CF /* lander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lander.cpp; sourceTree = "<group>"; };
+		843CCACD1F6A6E68009FD7CF /* lander_graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lander_graphics.cpp; sourceTree = "<group>"; };
+		843CCACE1F6A6E68009FD7CF /* lander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lander.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843CCABA1F69D73C009FD7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CCACB1F6A6D70009FD7CF /* OpenGL.framework in Frameworks */,
+				843CCAC91F6A6D66009FD7CF /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843CCAB41F69D73C009FD7CF = {
+			isa = PBXGroup;
+			children = (
+				843CCABF1F69D73C009FD7CF /* landerproject */,
+				843CCAC71F6A6D65009FD7CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843CCABE1F69D73C009FD7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843CCABD1F69D73C009FD7CF /* landerproject */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		843CCABF1F69D73C009FD7CF /* landerproject */ = {
+			isa = PBXGroup;
+			children = (
+				843CCABE1F69D73C009FD7CF /* Products */,
+				843CCACC1F6A6E68009FD7CF /* lander.cpp */,
+				843CCACD1F6A6E68009FD7CF /* lander_graphics.cpp */,
+				843CCACE1F6A6E68009FD7CF /* lander.h */,
+			);
+			path = landerproject;
+			sourceTree = "<group>";
+		};
+		843CCAC71F6A6D65009FD7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843CCACA1F6A6D70009FD7CF /* OpenGL.framework */,
+				843CCAC81F6A6D66009FD7CF /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843CCABC1F69D73C009FD7CF /* landerproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843CCAC41F69D73C009FD7CF /* Build configuration list for PBXNativeTarget "landerproject" */;
+			buildPhases = (
+				843CCAB91F69D73C009FD7CF /* Sources */,
+				843CCABA1F69D73C009FD7CF /* Frameworks */,
+				843CCABB1F69D73C009FD7CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = landerproject;
+			productName = landerproject;
+			productReference = 843CCABD1F69D73C009FD7CF /* landerproject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843CCAB51F69D73C009FD7CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					843CCABC1F69D73C009FD7CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 843CCAB81F69D73C009FD7CF /* Build configuration list for PBXProject "RUN_ME_landerproject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 843CCAB41F69D73C009FD7CF;
+			productRefGroup = 843CCABE1F69D73C009FD7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843CCABC1F69D73C009FD7CF /* landerproject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843CCAB91F69D73C009FD7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CCAD01F6A6E68009FD7CF /* lander_graphics.cpp in Sources */,
+				843CCACF1F6A6E68009FD7CF /* lander.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		843CCAC21F69D73C009FD7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		843CCAC31F69D73C009FD7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		843CCAC51F69D73C009FD7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843CCAC61F69D73C009FD7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843CCAB81F69D73C009FD7CF /* Build configuration list for PBXProject "RUN_ME_landerproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CCAC21F69D73C009FD7CF /* Debug */,
+				843CCAC31F69D73C009FD7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843CCAC41F69D73C009FD7CF /* Build configuration list for PBXNativeTarget "landerproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CCAC51F69D73C009FD7CF /* Debug */,
+				843CCAC61F69D73C009FD7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843CCAB51F69D73C009FD7CF /* Project object */;
+}
