@@ -3,6 +3,8 @@ from vl_codes import *
 import arithmetic
 import arithmeticac
 import condarithmetic
+import adconarithmetic2
+import adconarithmetic
 from json import load
 from sys import argv, exit
 
@@ -20,6 +22,10 @@ def camunzip(filename, b=0.1, num=0, scale=(100000,1), pr=0, pc=0):
         method = 'iadhuffman'
     elif (filename[-1] == 'f'):
         method = 'fcondarithmetic'
+    elif (filename[-1] == 'g'):
+        method = 'gadconarithmetic'
+    elif (filename[-1] == 'j'):
+        method = 'jadconarithmetic'
     else:
         raise NameError('Unknown compression method')
     
@@ -51,6 +57,10 @@ def camunzip(filename, b=0.1, num=0, scale=(100000,1), pr=0, pc=0):
         x = adhuffmandec(y,pr)
     elif method == 'fcondarithmetic':
         x = condarithmetic.decode(y,pc,n)
+    elif method == 'gadconarithmetic':
+        x = adconarithmetic.decode(y,b,n)
+    elif method == 'jadconarithmetic':
+        x = adconarithmetic2.decode(y,b,n)
 
     else:
         raise NameError('This will never happen (famous last words)')

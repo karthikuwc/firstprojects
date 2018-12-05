@@ -1,5 +1,5 @@
 from math import log2, ceil,floor
-from adhuff import *
+from testadhuff import *
 from sys import stdout as so
 
 def shannon_fano(p):

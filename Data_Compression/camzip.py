@@ -3,6 +3,8 @@ from vl_codes import *
 import arithmetic 
 import arithmeticac
 import condarithmetic
+import adconarithmetic2
+import adconarithmetic
 from itertools import groupby
 from json import dump
 from sys import argv
@@ -35,6 +37,10 @@ def camzip(method, filename, b=0.1, num=0, scale=(100000,1),pr=0,pc=0 ):
         y = adhuffman(x,pr)
     elif method == 'fcondarithmetic':
         y = condarithmetic.encode(x,pc)
+    elif method == 'gadconarithmetic':
+        y = adconarithmetic.encode(x,b)
+    elif method == 'jadconarithmetic':
+        y = adconarithmetic2.encode(x,b)
 
     else:
         raise NameError('Compression method %s unknown' % method)
