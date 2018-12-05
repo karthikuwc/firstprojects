@@ -1,5 +1,4 @@
 # First Projects
-Collection of simple programs with interesting applications.
 
 [This](https://d2sksnhswqxyde.cloudfront.net/) is a Serverless platform I built using 'material-desgin', ReactJS and various AWS resources.
 
